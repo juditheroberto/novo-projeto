@@ -289,3 +289,36 @@ footer {
    
 
 }
+
+/* Configuração para Celulares (telas de até 480px) */
+@media (max-width: 480px) {
+
+    /* 1. Ajuste do Texto-1 (o que estava com 500px) */
+    #texto-1 {
+        width: 90%;       /* Em vez de 500px fixos, ele ocupa 90% da telinha */
+        font-size: 18px;  /* Diminui um pouco a letra para não ocupar muito espaço */
+    }
+
+    /* 2. Ajuste das Imagens da Galeria */
+    .item-galeria img {
+        height: auto;     /* Deixa a altura livre para não achatar a foto */
+        border-radius: 10px;
+    }
+
+    /* 3. Ajuste do formulário */
+    .formulario-contato {
+        width: 95%;       /* Garante que o formulário não encoste nas bordas do celular */
+        padding: 15px;
+    }
+
+    /* 4. Ajuste dos Títulos Grandes (.doacao h3) */
+    .doacao h3 {
+        font-size: 28px !important; /* Diminui de 50px para 28px para caber em uma linha só */
+    }
+
+    /* 5. Área de Doações (Ajustando o Flexbox) */
+    .area-doacoes {
+        gap: 20px;        /* Diminui o buraco de 100px para 20px no celular */
+        font-size: 20px;  /* Ajusta o texto que estava com 35px */
+    }
+}
