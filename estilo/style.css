@@ -54,10 +54,13 @@ nav {
     width:auto;
     }
     .logo {
-    min-width:300px;
-    max-width: 600px;
-    height:500px;
-    border-radius: 50%;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 1.2em;
+        max-width: 600px;
+        padding-right: 10px;
+        padding-left: 10px;
+        margin: auto;
+        border-radius: 50%;
     }
     #meu-texto {
     background-color: aqua;
@@ -147,14 +150,7 @@ nav {
         text-align: center;
     }
 
-    aside .img {
-        font-family: Arial, Helvetica, sans-serif;
-        font-size: 1.2em;
-        max-width: 600px;
-        padding-right: 10px;
-        padding-left: 10px;
-        margin: auto;
-    }
+   
 
     
 
