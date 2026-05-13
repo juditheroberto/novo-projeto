@@ -13,7 +13,7 @@ body {
 
 header h1 {
     color:black;
-    font-size: 2.5rem;
+    font-size: 3.2rem;
     text-align: center;
     padding: 20px 10px;
     min-width: 100px;
@@ -25,22 +25,26 @@ header h1 {
 }
 
 .img {
-
+       text-align: center;
        min-width: 400px;
-       max-width: 600px;
+       max-width: 800px;
        margin: auto;
 
 }
 
 .especial {
+    
     color: black;
-    margin: 60px 10px;
-    padding: 60px 10px;
-    border-radius: 30%;
-    text-align:center;
-    font-size: 30px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-     line-height: 2em;
+    min-width: 500px;
+    max-width: 900px;
+    margin: 60px ;
+    padding: 60px;
+    border-radius: 50%;
+    margin: auto;
+    font-size: 25px;
+    font-family:Arial, Helvetica, sans-serif;
+    line-height: 1.1em;
+   
     
 }
 
@@ -105,11 +109,13 @@ nav {
     }
 
     .texto-principal { 
-        background-color: white;
-        width: 20%;
+        background-color: rgba(50, 205, 195, 0.865);
+        max-width: 800px;
+        min-width: 400px;
         text-align: left;
         margin: 30px auto;
         padding: 25px;
+        margin: auto;
         border-radius: 15px;
         border-left: 2px solid #0a0a09;
         box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.1);
@@ -134,18 +140,20 @@ nav {
         font-size: 30px;
         font-weight: bolder;
         color: #4d1d0c;
-        text-align:left;
         margin: 50px;
         padding: 15px;
     }
 
     aside h1 {
+        border-radius: 15px;
         color: #ff4500;
         line-height: 1em;
         text-align: center;
+        
     }
 
     aside p {
+        border-radius: 15px;
         color: #a53f1b;
         font-size: 25px;
         text-align: center;
@@ -156,11 +164,12 @@ nav {
     
 
     #destaque {
+        border-radius: 15px;
         text-align:center;
         font-family: Arial, Helvetica, sans-serif;
         font-size: 40px;
         color: #ff4500;
-         margin: 50px;
+        margin: 50px;
         padding: 15px;
 
     }
