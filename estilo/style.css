@@ -137,13 +137,13 @@ nav {
 
     aside h1 {
         color: #ff4500;
-        line-height: 1.5;
+        line-height: 1em;
         text-align: center;
     }
 
     aside p {
         color: #a53f1b;
-        font-size: 35px;
+        font-size: 25px;
         text-align: center;
     }
 
