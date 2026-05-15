@@ -104,26 +104,25 @@ nav {
         position: absolute;
     }
 
-    section p {
-        font-size: 20px;
-        font-weight: bolder;
-        text-decoration: underline;
-        text-align: center;
-    }
-
     .paragrafo {
         background-color: #ff4500;
         color: #1a0c06;
         font-family: 'Times New Roman', Times, serif;
         font-size: 70px;
+        border-radius: 20px;
         text-align: center;
+        text-decoration: underline;
+        
     }
+
+    
 
     .nome {
         background-color: #ff4500;
         color: #1a0c06;
         font-family: 'Times New Roman', Times, serif;
         font-size: 70px;
+        border-radius: 20px;
         text-align: center;
 
     }
