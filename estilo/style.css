@@ -111,6 +111,15 @@ nav {
         text-align: center;
     }
 
+    .nome {
+        background-color: #ff4500;
+        color: #1a0c06;
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 30%;
+        text-align: center;
+
+    }
+
     .ong {
      
     display: flex;
