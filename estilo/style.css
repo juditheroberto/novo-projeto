@@ -111,6 +111,41 @@ nav {
         text-align: center;
     }
 
+    .ong {
+     
+    min-height: 200px; 
+    max-height: 400px; 
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content:left;
+    border-radius: 30px;
+    align-items: stretch;
+    gap: 20px;
+    padding: 20px;
+    padding-bottom: 50px;
+    
+    .minha {
+
+    min-height: 350px; 
+    max-height: 800px; 
+    margin-top: 5px;
+    display: flex;
+    flex-direction: row;
+    justify-content:right;
+    border-radius: 30px;
+    align-items: stretch;
+    gap: 20px;
+    padding: 20px;
+    padding-bottom: 50px;
+
+    }
+       
+        
+    
+
+    }
+
     .texto-principal { 
         background-color: rgba(50, 205, 195, 0.865);
         max-width: 800px;
