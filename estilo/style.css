@@ -113,33 +113,30 @@ nav {
 
     .ong {
      
-    min-height: 200px; 
-    max-height: 400px; 
-    margin-top: 50px;
     display: flex;
-    flex-direction: row;
-    justify-content:left;
-    border-radius: 30px;
-    align-items: stretch;
+    justify-content:space-between;
+    align-items: center;
     gap: 20px;
     padding: 20px;
-    padding-bottom: 50px;
+    flex-wrap: wrap;
     
     .minha {
+    width: 320px;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+     }
 
-    min-height: 350px; 
-    max-height: 800px; 
-    margin-top: 5px;
-    display: flex;
-    flex-direction: row;
-    justify-content:center;
-    border-radius: 30px;
-    align-items: stretch;
-    gap: 20px;
-    padding: 20px;
-    padding-bottom: 50px;
+     @media (max-width: 768px)  {
+        .ong {
+            justify-content: center;
+        }
 
-    }
+        .minha {
+            width: 90%;
+            height: auto;
+        }
+     }
        
         
     
